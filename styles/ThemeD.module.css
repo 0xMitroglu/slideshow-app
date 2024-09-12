@@ -1,0 +1,25 @@
+.photo {
+  position: relative;
+  animation: stackIn 1.5s ease-in-out forwards;
+  transform: rotate(var(--rotation));
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+@keyframes stackIn {
+  from {
+    transform: translateX(-100%) rotate(var(--rotation));
+  }
+  to {
+    transform: translateX(0) rotate(var(--rotation));
+  }
+}

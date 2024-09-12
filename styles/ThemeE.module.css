@@ -1,0 +1,16 @@
+.photo {
+  animation: doorOpen 1.5s ease-in-out forwards;
+  position: relative;
+}
+
+@keyframes doorOpen {
+  0% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  50% {
+    clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);
+  }
+  100% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}

@@ -1,0 +1,19 @@
+.photo {
+  animation: slideIn 1.5s ease-in-out forwards;
+}
+
+.caption {
+  font-size: 24px;
+  margin-top: 10px;
+  text-align: center;
+  animation: slideIn 1.8s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

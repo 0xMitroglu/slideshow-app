@@ -1,0 +1,47 @@
+.configPanel {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.configPanel label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.configPanel select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.configPanel div {
+  margin-bottom: 15px;
+}
+
+.configPanel button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0070f3;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.configPanel button:hover {
+  background-color: #005bb5;
+}

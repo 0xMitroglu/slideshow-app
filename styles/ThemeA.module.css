@@ -1,0 +1,18 @@
+.photo {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.caption {
+  font-size: 24px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,28 @@
+.photo {
+  animation: slideUp 1.5s ease-in-out forwards;
+}
+
+.caption {
+  font-size: 24px;
+  margin-top: 10px;
+  text-align: center;
+  animation: wordFadeIn 0.8s ease-in-out forwards;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes wordFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
